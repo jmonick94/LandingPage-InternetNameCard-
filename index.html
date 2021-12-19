@@ -15,13 +15,13 @@
       <div
         id="div_wrapper"
         style="
-          height: 1441px;
+          height: auto;
           width: 850px;
           border: 1px solid purple;
           position: relative;
         "
       >
-        <div id="imgcontainer" style="height: 450px;">
+        <div id="imgcontainer" style="height: 450px">
           <iframe
             width="850px"
             height="450"
@@ -37,10 +37,8 @@
         <div
           id="intro_wrapper"
           style="
-            height: 516.34px;
+            height: 480px;
             width: 850px;
-            margin: ;
-            border: 1px solid white;
           "
         >
           <!--명함 wrapper -->
@@ -61,6 +59,7 @@
               style="width: 100%; height: auto"
             />
           </div>
+
           <!--로고 넣는 곳-->
           <div
             id="detail_logo"
@@ -76,10 +75,11 @@
           >
             <img
               src="/src/3사 로고/콤피아로고.png"
-              style="width: 100%; height: auto"
+              style="width: 100%; height: auto; float: right;"
             />
           </div>
 
+          <!--이름 직함 이메일 팩스 전화번호 전체 -->
           <div
             id="description"
             style="
@@ -87,140 +87,216 @@
               width: 460px;
               padding: 20px;
               margin: 5px;
-              border: 1px solid black;
               align-items: center;
               margin-top: auto;
               float: right;
             "
           >
-          <div id="NP_Wrapper" style="height: 50px; width: auto; border: 1px solid white; float: right;">
-          <!--직함wrapper-->
-            <span
-              id="des_postion"
+
+          <!--이름 직함 wrapper-->
+            <div
+              id="NP_Wrapper"
               style="
-                height: 100;
+                height: 50px;
                 width: auto;
-               position: relative;
                 border: 1px solid white;
-                padding: 10px;
-                font-size: 30px;
-                float:right; "
+                float: right;
+              "
             >
-            이판정
-        </span>
-            <span
-            id="des_postion"
-            style="
-              height: 200;
-              width:auto ;
-              padding: 10px;
+              <div
+                id="des_postion"
+                style="
+                  height: 100;
+                  width: auto;
+                  position: relative;
+                  border: 1px solid white;
+                  padding: 10px;
+                  font-size: 30px;
+                  display: inline-block;
+                "
+              >
+                이판정
+              </div>
+              <div
+                id="des_postion"
+                style="
+                  height: 200;
+                  width: auto;
+                  padding: 10px;
+                  margin: 0px auto;
+                  border: 1px solid white;
+                  font-size: 30px;
+                  display: inline-block;
+                "
+              >
+                의장
+              </div>
+              <img src="src/icon/id-card.png"  
+              style="
+              height: 33px;
+              width: 30px;
               margin: 0px auto;
               border: 1px solid white;
               font-size: 30px;
-              float:left;
-              
-            "
-          >
-            의장
-          </span>
-          </div>
-          <div id="email" style="border: 1px solid white;">
-            <span
-            id="des_postion"
+              display: inline-block;
+              "/>
+              </div>
+              <!--이메일-->
+              <div
+              id="email_Wrapper"
+              style="
+                height: 50px;
+                width: auto;
+                border: 1px solid white;
+                float: right;
+              "
+            >
+              <div
+                id="des_postion"
+                style="
+                  height: 100;
+                  width: auto;
+                  position: relative;
+                  border: 1px solid white;
+                  padding: 10px;
+                  font-size: 30px;
+                  display: inline-block;
+                  
+                
+                "
+              >
+              jmonick94@gmail.com
+            </div>
+            <img src="src/icon/arroba.png"  
             style="
-              height: 100;
-              width: auto;
-             position: relative;
-              border: 1px solid white;
-              padding: 10px;
-              font-size: 30px;
-              float:right; "
-          >
-         jmonick94@gmail.com
-      </span>
-          <span
-          id="des_postion"
-          style="
-            height: 200;
-            width:auto ;
-            padding: 10px;
+            height: 30px;
+            width: 30px;
             margin: 0px auto;
             border: 1px solid white;
             font-size: 30px;
-            float:left;
-          "
-        >
-          email
-          </div>
-        <div id="Fax" style="border: 1px solid white;">
-          <span
-          id="des_postion"
-          style="
-            height: 100;
-            width: auto;
-           position: relative;
-            border: 1px solid white;
-            padding: 10px;
-            font-size: 30px;
-            float:right; "
-        >
-       02-2165-3030
-    </span>
-        <span
-        id="des_postion"
-        style="
-          height: 200;
-          width:auto ;
-          padding: 10px;
-          margin: 0px auto;
-          border: 1px solid white;
-          font-size: 30px;
-          float:left;
-        "
-      >
-       phone
-        </div>
-        <div id="Fax" style="border: 1px solid white;">
-          <span
-          id="des_postion"
-          style="
-            height: 100;
-            width: auto;
-           position: relative;
-            border: 1px solid white;
-            padding: 10px;
-            font-size: 30px;
-            float:right; "
-        >
-       02-2165-3030
-    </span>
-        <span
-        id="des_postion"
-        style="
-          height: 200;
-          width:auto ;
-          padding: 10px;
-          margin: 0px auto;
-          border: 1px solid white;
-          font-size: 30px;
-          float:left;
-        "
-      >
-       Fax
-        </div>
-        </div>
-        
-        
-        <div id="introducemyself" style="border: 1px solid black;">
-          <h1>Introduce</h1>
-          <p>
-            </p>
+            display: inline-block;
+            "/>
             </div>
+            <!--이메일-->
+            <div
+              id="email_Wrapper"
+              style="
+              height: 50px;
+              width: auto;
+              border: 1px solid white;
+              float: right;
+              "
+              >
+                <div
+                  id="des_postion"
+                  style="
+                    height: 100;
+                    width: auto;
+                    position: relative;
+                    border: 1px solid white;
+                    padding: 10px;
+                    font-size: 30px;
+                    display: inline-block;
+                  "
+                >
+                  02-2165-3004
+                </div>
+                <img src="src/icon/phone-call.png"  
+                style="
+                height: 30px;
+                width: 30px;
+                margin: 0px auto;
+                border: 1px solid white;
+                font-size: 30px;
+                display: inline-block;
+                "/>
+                </div>
+            <!--fax-->
+            <div
+              id="email_Wrapper"
+              style="
+              height: 50px;
+              width: auto;
+              border: 1px solid white;
+              float: right;
+              "
+              >
+                <div
+                    id="des_postion"
+                    style="
+                      height: 100;
+                      width: auto;
+                      position: relative;
+                      border: 1px solid white;
+                      padding: 10px;
+                      font-size: 30px;
+                      display: inline-block;
+                    "
+                  >
+                  02 - 2165 - 3030
+              </div>
+              <img src="src/icon/fax.png"  
+              style="
+              height: 32px;
+              width: 32px;
+              margin: 0px auto;
+              border: 1px solid white;
+              font-size: 30px;
+              display: inline-block;
+              "/>
+              </div>
+                </div>
+                </div>
+
+                <!--아이콘-->
+                <div class="icons" style="height: auto;display: flex; justify-content: space-around;">
+                  
+                    <img src="src/icon/premium-icon-kakao-talk-3669973.png"
+                    style="height:95px; width: 95px; flex-direction: column; display: flex;justify-content: space-around;">
+                    <img src="src/icon/free-icon-line-2111498.png"
+                    style="height:95px; width: 95px;  flex-direction: column;display: flex;justify-content: space-around;">
+                    <img src="src/icon/premium-icon-facebook-4494475.png"
+                    style="height:95px; width: 95px;  flex-direction: column;display: flex;justify-content: space-around;">
+                    <img src="src/icon/free-icon-gmail-732200.png"
+                    style="height:95px; width: 95px;  flex-direction: column;display: flex;justify-content: space-around;">
+                    <img src="src/icon/message.png"
+                    style="height:95px; width: 95px;  flex-direction: column;display: flex;justify-content: space-around;">
+                    <img src="src/icon/free-icon-plus-1828817.png"
+                    style="height:95px; width: 95px;  flex-direction: column;display: flex;justify-content: space-around;">
+
+                </div>        
+
+                <!--Introduction-->
+                <div id="introducemyself">
+                  <h1 style="margin-top: 60px;">Introduce</h1>
+
+                  <!--소개글-->
+                  <div class="diaglogue" 
+                  style="
+                    height: auto;
+                    width: 460px;
+                    padding: 10px;
+                    align-items: center;
+                    margin-top: auto;
+                    align-items: center;
+                  "
+                >
+                  <p>
+                    안녕하세요.<br>
+                    (주) 콤피아 의장 이판정 입니다.<Br>
+                    21세기는 인터넷문명입니다.<br>
+                    대한민국은 21세기문명의 중심국 입니다.<br>
+                    대한민국은 전 인류가 사용할 95개국어 자국어인터넷주소(콘텐츠인터넷주소)인 리얼네임도메인을 개발하여 각국에 보급하고 있습니다.<br>
+                    </p>
+                    </div>
+                </div>
+                
+
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </center>
+      </div>
+    </center>
   </body>
 </html>
