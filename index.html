@@ -11,7 +11,7 @@
     <title>Landing Page</title>
   </head>
   <body>
-    <center>
+ <center>
       <div
         id="div_wrapper"
         style="
@@ -25,6 +25,8 @@
 
           <iframe width="850" height="450" src="https://www.youtube.com/embed/VqnJfbJLhVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+
+
         <!--명함 사진 및 이름/정보 적는 div wrapper-->
         <div
           id="intro_wrapper"
@@ -293,18 +295,18 @@
                 <!--아이콘-->
                 <div class="icons" style="height: auto;display: flex; justify-content: space-around;">
                   
-                    <img src="src/icon/premium-icon-kakao-talk-3669973.png"
-                    style="height:80px; width: 80px; flex-direction: column; display: flex;justify-content: space-around; padding: 30px;">
-                    <img src="src/icon/free-icon-line-2111498.png"
-                    style="height:80px; width: 80px; flex-direction: column;display: flex;justify-content: space-around ;padding: 30px;">
-                    <img src="src/icon/premium-icon-facebook-4494475.png"
-                    style="height:80px; width: 80px; flex-direction: column;display: flex;justify-content: space-around; padding: 30px;">
-                    <img src="src/icon/free-icon-gmail-732200.png"
-                    style="height:80px; width: 80px;flex-direction: column;display: flex;justify-content: space-around; padding: 30px;">
-                    <img src="src/icon/message.png"
-                    style="height:80px; width: 80px;  flex-direction: column;display: flex;justify-content: space-around; padding: 30px;">
-                    <img src="src/icon/free-icon-plus-1828817.png"
-                    style="height:80px; width: 80px; flex-direction: column;display: flex;justify-content: space-around; padding: 30px;">
+                    <a href="#"><img src="src/icon/premium-icon-kakao-talk-3669973.png"
+                    style="height:80px; width: 80px; flex-direction: column; display: flex;justify-content: space-around; padding: 30px;"></a>
+                    <a href="#"> <img src="src/icon/free-icon-line-2111498.png"
+                    style="height:80px; width: 80px; flex-direction: column;display: flex;justify-content: space-around ;padding: 30px;"></a>
+                    <a href="#"> <img src="src/icon/premium-icon-facebook-4494475.png"
+                    style="height:80px; width: 80px; flex-direction: column;display: flex;justify-content: space-around; padding: 30px;"></a>
+                    <a href="#"><img src="src/icon/free-icon-gmail-732200.png"
+                    style="height:80px; width: 80px;flex-direction: column;display: flex;justify-content: space-around; padding: 30px;"></a>
+                    <a href="#"> <img src="src/icon/message.png"
+                    style="height:80px; width: 80px;  flex-direction: column;display: flex;justify-content: space-around; padding: 30px;"></a>
+                    <a href="#"><img src="src/icon/free-icon-plus-1828817.png"
+                    style="height:80px; width: 80px; flex-direction: column;display: flex;justify-content: space-around; padding: 30px;"></a>
 
                 </div>        
 
@@ -335,27 +337,28 @@
 
                 <!--소개 영상-->
                 <div id="player" style="padding-top: 50px;">
-                  <div id="title" style="margin-left: 30px;">
+                  <div id="title" >
                     <h2>소개영상</h2>
                   </div>
                   <iframe width="850" height="450" src="https://www.youtube.com/embed/VqnJfbJLhVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <!--소개 영상-->
+
                 <div id="news" style="padding-top: 50px;">
-                  <div id="title" style="margin-left: 30px; display:flex;">
+                  <div id="title" style="margin-left: 30px; display:flex; ">
                     <h2 >기사 보기</h2>
                   </div>
-                  <ul>
-                  <li style="font-size: 25px;"><a href="https://www.webeconomy.co.kr/mobile/article.html?no=215102">[특별기고] 대통령이 청와대에 출근하지 않고 포털로 출근한다</a></li>
-                  <li style="font-size: 25px;"><a href="http://news.bbsi.co.kr/news/articleView.html?idxno=3046701">[BBS경제토크]이판정 의장, "한글 넘어 95개 자국어도메인 보급"..."말로 열리는 모바일 부라우저"</a></li>
+                  <ul style="padding: 8px;">
+                  <li style="font-size: 20px; list-style: none; text-align: left;"><a href="https://www.webeconomy.co.kr/mobile/article.html?no=215102">[특별기고] 대통령이 청와대에 출근하지 않고 포털로 출근한다</a></li>
+                  <li style="font-size: 20px; list-style: none;text-align: left;"><a href="http://news.bbsi.co.kr/news/articleView.html?idxno=3046701">[BBS경제토크]이판정 의장, "한글 넘어 95개 자국어도메인 보급"..."말로 열리는 모바일 부라우저"</a></li>
                     </ul>
                 </div>              
               
               <!--소개사진-->
-              <div id="picture" style="padding-top: 30px;">
-                <div id="title" style="margin-left: 20px;float: left;">
-                  <h2>소개사진</h2>
-                  <p style="font-size:larger;">새로운 연결에 반하다 꿀업</p>
+              <div id="picture" style="padding-top: 30px; margin: 0;">
+                <div id="title" style="margin:0 px;float: left;">
+                  <h2 style="padding: 0; margin: 0px;">소개사진</h2>
+                  <p style="font-size:larger; padding-left: 10px;">새로운 연결에 반하다 꿀업</p>
                 </div>
                 <div id="pic1">
                   <img src="src/이판정의장님/11.jpg"/>
